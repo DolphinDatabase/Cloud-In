@@ -1,0 +1,3 @@
+[submodule "Cloudin-backend"]
+	path = Cloudin-backend
+	url = https://github.com/DolphinDatabase/Cloudin-backend.git

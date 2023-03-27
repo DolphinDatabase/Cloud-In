@@ -1,7 +1,6 @@
-[submodule "Cloudin-backend"]
-	path = Cloudin-backend
-	url = https://github.com/DolphinDatabase/Cloudin-backend.git
-
 [submodule "Cloudin-frontend"]
 	path = Cloudin-frontend
 	url = https://github.com/DolphinDatabase/Cloudin-frontend.git
+[submodule "Cloudin-backend"]
+	path = Cloudin-backend
+	url = https://github.com/DolphinDatabase/Cloudin-backend.git

@@ -10,7 +10,9 @@ O software Cloud-In é um orquestrador de transferência automática de arquivos
 
 # Cliente
 
+<div style="text-align: justify">
 A MidAll nasceu para simplificar a jornada de evolução do seu negócio, visando alcançar qualquer visão estratégica. Nossa missão é preparar negócios para o futuro em uma nova era de disrupções de mercado somadas aos desafios pós pandemia. Acreditamos que Tecnologia, Dados e Inovação orientados para a geração de valor ao cliente são o ambiente de negócios perfeito para promissores resultados.
+</div>
 
 # Integrantes
 

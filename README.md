@@ -5,7 +5,7 @@
 # Descrição
 
 <div style="text-align: justify">
-O software Cloud-In é um orquestrador gráfico de transferência de arquivos entre sistemas de storage online, a ferramenta permite que seus usuários gerenciem suas credenciais e configure suas transferências, além disso existe o recurso de análise de metadados das transferências. 
+O software Cloud-In é um orquestrador de transferência automática de arquivos entre sistemas de armazenamento online, usando as credenciais e configurações que o próprio usuário disponibiliza, a aplicação realiza de forma automática a jornada de download e upload entre os storages.
 </div>
 
 # Cliente
@@ -14,13 +14,43 @@ A MidAll nasceu para simplificar a jornada de evolução do seu negócio, visand
 
 # Integrantes
 
+ - Betriz Medeiros de Oliveira Santos (PO)
+ - Pedro Motta Silva (SM)
+ - Abraão Henrique (DEV)
+ - Hamilton (DEV)
+ - Kauã Borgarelli (DEV)
+ - Renata Garcia (DEV)
+ - Victor Cavichiolli (DEV)
+
+# WireFrames
+
+</details>
+<details><summary>Tela de configuração</summary>
+
+ > <img src="https://user-images.githubusercontent.com/58821700/228653015-1c2e5727-abc6-4804-9e61-e3f04893dfb5.png" width="400" height="300"/> 
+ > <img src="https://user-images.githubusercontent.com/58821700/228653155-43c086d4-1e86-4c12-89e8-001b31f4f895.png" width="400" height="300"/>
+
+</details>
+</details>
+<details><summary>Tela de autenticação</summary>
+
+ > <img src="https://user-images.githubusercontent.com/58821700/228652798-31f406c7-c212-44f0-9e8b-e8b54f9b2f08.png" width="400" height="300"/> 
+
+</details>
+
+</details>
+<details><summary>Tela de transações</summary>
+
+ > <img src="https://user-images.githubusercontent.com/58821700/228653383-68edf6f5-dddc-49e1-aac0-da59a0602a2a.png" width="400" height="300"/> 
+
+</details>
 
 # Demonstração e funcionalidades
 
 
 # Tecnologias
 
-
+ <img src="https://img.shields.io/badge/-Vue.js-4FC08D?logo=Vue.js&logoColor=white&style=for-the-badge" alt="badge"> <img src="https://img.shields.io/badge/-Flask-000000?logo=Flask&logoColor=white&style=for-the-badge" alt="badge"><img src="https://img.shields.io/badge/-MySQL-4479A1?logo=MYSQL&logoColor=white&style=for-the-badge" alt="badge">
 
 # Cronograma da API
 

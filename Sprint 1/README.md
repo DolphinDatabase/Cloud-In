@@ -20,3 +20,5 @@ A sprint 1 teve como objetivo entregar um MVP do produto final, de forma que o c
 - [X] Setup da aplicação desktop
 - [X] Alertas e notificações
 - [X] Histórico de transações
+
+# Demonstração

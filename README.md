@@ -53,7 +53,7 @@ Para acessar o vídeo[^1] de demonstração da aplicação em uso, clique [aqui]
  - Renata Garcia Nonato (DEV)
  - Victor Cavichiolli (DEV)
  
-Para mais informações[^2], clique [aqui](https://github.com/DolphinDatabase/Cloud-in/wiki/Development-Team).
+Para mais informações[^2], clique [aqui](https://github.com/DolphinDatabase/Cloud-In/wiki/Development-Team).
 
 ## Cronograma da API
 

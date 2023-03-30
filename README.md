@@ -12,10 +12,9 @@
  * [Ilustração das funcionalidades](#ilustração-das-funcionalidades)
  * [Demonstração](#demonstração)
  * [Manual do Usuário](#manual-do-usuário) 
- * [Cronograma do API](#cronograma-do-api)
  * [Tecnologias](#tecnologias)
- * [Team](#team)
- * [Licença](#licença)
+ * [Integrantes](#integrantes)
+ * [Cronograma da API](#cronograma-da-api)
 
 ## Descrição
 
@@ -56,7 +55,7 @@ Para acessar o vídeo[^1] de demonstração da aplicação em uso, clique [aqui]
  
 Para mais informações[^2], clique [aqui](https://github.com/DolphinDatabase/Cloud-in/wiki/Development-Team).
 
-# Cronograma da API
+## Cronograma da API
 
 | Data | Evento |
 | -------| --------- |
@@ -66,10 +65,6 @@ Para mais informações[^2], clique [aqui](https://github.com/DolphinDatabase/Cl
 | 24/04 a 14/05 | Sprint 3 |
 | 15/05 a 04/06 | Sprint 4 |
 | 13/06 e 14/06 | Feira de Soluções. |
-
-## Licença  
-
-Este projeto esta sob licença [MIT](LICENSE).<br/>
 
 [^1]: Vídeo produzido e editado pelos integrantes do grupo.
 [^2]: Equipe responsável pelo desenvolvimento do Projeto Integrador.

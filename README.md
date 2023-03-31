@@ -34,7 +34,7 @@ Para acessar nosso *protótipo*, clique [aqui](https://www.figma.com/proto/HTiqf
 
 Para acessar o vídeo[^1] de demonstração da aplicação em uso, clique [aqui](#):
 
-[<img src="Imagens/MCS_Youtube.png" width="60%" height="60%">](# "Cloud-in vídeo Demonstração")
+[<img src="https://user-images.githubusercontent.com/74321890/228991716-687c07f9-3b6a-4cea-b855-677b51b2b20a.svg" width="60%" height="60%">](# "Cloud-in vídeo Demonstração")
 
 ## Manual do Usuário
 

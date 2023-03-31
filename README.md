@@ -51,7 +51,7 @@ Para acessar o vídeo[^1] de demonstração da aplicação em uso, clique [aqui]
  - Hamilton Zanini (DEV)
  - Kauã Borgarelli (DEV)
  - Renata Garcia (DEV)
- - Victor Cavichiolli (DEV)
+ - Victor Cavichioli (DEV)
  
 Para mais informações[^2], clique [aqui](https://github.com/DolphinDatabase/Cloud-In/wiki/Development-Team).
 

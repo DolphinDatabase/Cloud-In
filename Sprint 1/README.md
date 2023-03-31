@@ -19,7 +19,7 @@ O objetivo dessa sprint foi entregar um MVP do produto final, onde o cliente e u
 - [X] Transferência de arquivos individuais
 - [X] Setup da aplicação desktop
 - [X] Alertas e notificações
-- [X] Histórico de transações
+- [X] Histórico de transferências
 
 ## Demonstração
 

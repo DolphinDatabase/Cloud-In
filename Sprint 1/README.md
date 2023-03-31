@@ -4,7 +4,7 @@
 
 ## Sprint 1
 
-
+<p align="justify">
 O objetivo dessa sprint foi entregar um MVP do produto final, onde o cliente e usuário consegue configurar suas credenciais do Google Drive e Bucket S3, fazer a transferência individual de um arquivo e observar a resposta da aplicação através de uma notificação do Sistema Operacional.
 
 ## Story Cards

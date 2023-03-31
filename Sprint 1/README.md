@@ -29,3 +29,18 @@ O objetivo dessa sprint foi entregar um MVP do produto final, onde o cliente e u
 Para acessar o vídeo[^1] de demonstração da aplicação em uso, clique [aqui](#):
 
 [<img src="https://user-images.githubusercontent.com/74321890/228991716-687c07f9-3b6a-4cea-b855-677b51b2b20a.svg" width="60%" height="60%">](# "Cloud-in vídeo Demonstração")
+
+## Integrantes
+
+ - Betriz Medeiros (PO)
+ - Pedro Motta (SM)
+ - Abraão Henrique (DEV)
+ - Hamilton Zanini (DEV)
+ - Kauã Borgarelli (DEV)
+ - Renata Garcia (DEV)
+ - Victor Cavichiolli (DEV)
+ 
+Para mais informações[^2], clique [aqui](https://github.com/DolphinDatabase/Cloud-In/wiki/Development-Team).
+
+[^1]: Vídeo produzido e editado pelos integrantes do grupo.
+[^2]: Equipe responsável pelo desenvolvimento do Projeto Integrador.

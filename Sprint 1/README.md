@@ -7,6 +7,8 @@
 <p align="justify">
 O objetivo dessa sprint foi entregar um MVP do produto final, onde o cliente e usuário consegue configurar suas credenciais do Google Drive e Bucket S3, fazer a transferência individual de um arquivo e observar a resposta da aplicação através de uma notificação do Sistema Operacional.
   
+## Story Cards
+
 ## Funcionalidades desenvolvidas
 
 - [X] Autenticação com o S3
@@ -18,10 +20,9 @@ O objetivo dessa sprint foi entregar um MVP do produto final, onde o cliente e u
 - [X] Setup da aplicação desktop
 - [X] Alertas e notificações
 - [X] Histórico de transações
-  
 
-## Story Cards
+## Demonstração
 
+Para acessar o vídeo[^1] de demonstração da aplicação em uso, clique [aqui](#):
 
-
-# Demonstração
+[<img src="https://user-images.githubusercontent.com/74321890/228991716-687c07f9-3b6a-4cea-b855-677b51b2b20a.svg" width="60%" height="60%">](# "Cloud-in vídeo Demonstração")

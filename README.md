@@ -7,14 +7,16 @@
 
 ## Tabela de Conteúdos
 
- * [Descrição](#descrição)
- * [Cliente](#cliente)
- * [Ilustração das funcionalidades](#ilustração-das-funcionalidades)
- * [Demonstração](#demonstração)
- * [Manual do Usuário](#manual-do-usuário) 
- * [Tecnologias](#tecnologias)
- * [Integrantes](#integrantes)
- * [Cronograma da API](#cronograma-da-api)
+- [Tabela de Conteúdos](#tabela-de-conteúdos)
+- [Descrição](#descrição)
+- [Cliente](#cliente)
+- [Ilustração das Funcionalidades](#ilustração-das-funcionalidades)
+- [Demonstração](#demonstração)
+- [Epic das Sprints](#epic-das-sprints)
+- [Backlog do Produto](#backlog-do-produto)
+- [Tecnologias](#tecnologias)
+- [Integrantes](#integrantes)
+- [Cronograma da API](#cronograma-da-api)
 
 ## Descrição
 
@@ -36,8 +38,45 @@ Para acessar o vídeo[^1] de demonstração da aplicação em uso, clique [aqui]
 
 [<img src="https://user-images.githubusercontent.com/74321890/228991716-687c07f9-3b6a-4cea-b855-677b51b2b20a.svg" width="60%" height="60%">](https://youtu.be/AGRvBq9Xq4U "Cloud-in vídeo Demonstração")
 
-## Manual do Usuário
+## Epic das Sprints
 
+| Sprint | Epic |
+| -------| --------- |
+| Sprint 1 | Transação manual de arquivos, Notificações e Autenticação nos drives |
+| Sprint 2 | Transação automática e Coleta de metadados |
+| Sprint 3 | Dashboard de metadados |
+| Sprint 4 | Configurações personalizadas da transação |
+
+## Backlog do Produto
+
+- [X] ![EPIC](Imagens/Epic.svg) **SPRINT 1:**  Funcionalidades Básicas
+- [X] ![STORY](Imagens/Story.svg) Autenticação com o S3
+- [X] ![STORY](Imagens/Story.svg) Autenticação com o Google drive
+- [X] ![STORY](Imagens/Story.svg) Template da aplicação
+- [X] ![STORY](Imagens/Story.svg) Operações de arquivos do S3 (download, upload e listagem)
+- [X] ![STORY](Imagens/Story.svg) Operações de arquivos do Google drive (download, upload e listagem)
+- [X] ![STORY](Imagens/Story.svg) Transferência de arquivos individuais
+- [X] ![STORY](Imagens/Story.svg) Alertas e notificações
+- [X] ![STORY](Imagens/Story.svg) Histórico de transferências
+- [ ] ![EPIC](Imagens/Epic.svg) **SPRINT 2:**  Transação automática de arquivos e coleta de metadados
+- [ ] ![STORY](Imagens/Story.svg) Salvar credenciais para transação automática
+- [ ] ![STORY](Imagens/Story.svg) Pesquisa recorrente ao drive
+- [ ] ![STORY](Imagens/Story.svg) Transação automática
+- [ ] ![STORY](Imagens/Story.svg) Coleta de metadados de tamanho e tempo na transferência
+- [ ] ![STORY](Imagens/Story.svg) Resposta da transferência automática para o frontend
+- [ ] ![STORY](Imagens/Story.svg) Padronização de rotas
+- [ ] ![STORY](Imagens/Story.svg) Testes de unidade e de integração nas funções de transação
+- [ ] ![EPIC](Imagens/Epic.svg) **SPRINT 3:**  Dashboard de metadados
+- [ ] ![STORY](Imagens/Story.svg) Coleta de metadados armazenados no backend
+- [ ] ![STORY](Imagens/Story.svg) Armazenamento de metadados na aplicação local
+- [ ] ![STORY](Imagens/Story.svg) Dashboard em Power BI para visualização dos dados
+- [ ] ![STORY](Imagens/Story.svg) Implementação do power BI no frontend
+- [ ] ![EPIC](Imagens/Epic.svg) **SPRINT 4:**  Configurações personalizadas da transação
+- [ ] ![STORY](Imagens/Story.svg) Configurar tempo de pesquisa recorrente ao drive de origem
+- [ ] ![STORY](Imagens/Story.svg) Configurar banda usada na transação
+- [ ] ![STORY](Imagens/Story.svg) Configurar tipo de transferência
+- [ ] ![STORY](Imagens/Story.svg) Configurar tipo de transferência
+- [ ] ![STORY](Imagens/Story.svg) Setup da aplicação desktop
 
 ## Tecnologias
 

@@ -20,7 +20,6 @@ O objetivo dessa sprint foi entregar um MVP do produto final, onde o cliente e u
 - [X] Operações de arquivos do S3 (download, upload e listagem)
 - [X] Operações de arquivos do Google drive (download, upload e listagem)
 - [X] Transferência de arquivos individuais
-- [X] Setup da aplicação desktop
 - [X] Alertas e notificações
 - [X] Histórico de transferências
 

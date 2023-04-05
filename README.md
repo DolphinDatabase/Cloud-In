@@ -49,34 +49,34 @@ Para acessar o vídeo[^1] de demonstração da aplicação em uso, clique [aqui]
 
 ## Backlog do Produto
 
-- [X] ![EPIC](Imagens/Epic.svg) **SPRINT 1:**  Funcionalidades Básicas
-- [X] ![STORY](Imagens/Story.svg) Autenticação com o S3
-- [X] ![STORY](Imagens/Story.svg) Autenticação com o Google drive
-- [X] ![STORY](Imagens/Story.svg) Template da aplicação
-- [X] ![STORY](Imagens/Story.svg) Operações de arquivos do S3 (download, upload e listagem)
-- [X] ![STORY](Imagens/Story.svg) Operações de arquivos do Google drive (download, upload e listagem)
-- [X] ![STORY](Imagens/Story.svg) Transferência de arquivos individuais
-- [X] ![STORY](Imagens/Story.svg) Alertas e notificações
-- [X] ![STORY](Imagens/Story.svg) Histórico de transferências
-- [ ] ![EPIC](Imagens/Epic.svg) **SPRINT 2:**  Transação automática de arquivos e coleta de metadados
-- [ ] ![STORY](Imagens/Story.svg) Salvar credenciais para transação automática
-- [ ] ![STORY](Imagens/Story.svg) Pesquisa recorrente ao drive
-- [ ] ![STORY](Imagens/Story.svg) Transação automática
-- [ ] ![STORY](Imagens/Story.svg) Coleta de metadados de tamanho e tempo na transferência
-- [ ] ![STORY](Imagens/Story.svg) Resposta da transferência automática para o frontend
-- [ ] ![STORY](Imagens/Story.svg) Padronização de rotas
-- [ ] ![STORY](Imagens/Story.svg) Testes de unidade e de integração nas funções de transação
-- [ ] ![EPIC](Imagens/Epic.svg) **SPRINT 3:**  Dashboard de metadados
-- [ ] ![STORY](Imagens/Story.svg) Coleta de metadados armazenados no backend
-- [ ] ![STORY](Imagens/Story.svg) Armazenamento de metadados na aplicação local
-- [ ] ![STORY](Imagens/Story.svg) Dashboard em Power BI para visualização dos dados
-- [ ] ![STORY](Imagens/Story.svg) Implementação do power BI no frontend
-- [ ] ![EPIC](Imagens/Epic.svg) **SPRINT 4:**  Configurações personalizadas da transação
-- [ ] ![STORY](Imagens/Story.svg) Configurar tempo de pesquisa recorrente ao drive de origem
-- [ ] ![STORY](Imagens/Story.svg) Configurar banda usada na transação
-- [ ] ![STORY](Imagens/Story.svg) Configurar tipo de transferência
-- [ ] ![STORY](Imagens/Story.svg) Configurar tipo de transferência
-- [ ] ![STORY](Imagens/Story.svg) Setup da aplicação desktop
+- [X] ![Epic](https://user-images.githubusercontent.com/89356780/229957736-64a40537-3607-421a-afdd-e581db9e55ea.svg)) **SPRINT 1:**  Funcionalidades Básicas
+- [X] ![Story](https://user-images.githubusercontent.com/89356780/229957815-ea747c93-b861-40c7-8a2d-bc43c1b2973a.svg) Autenticação com o S3
+- [X] ![Story](https://user-images.githubusercontent.com/89356780/229957815-ea747c93-b861-40c7-8a2d-bc43c1b2973a.svg) Autenticação com o Google drive
+- [X] ![Story](https://user-images.githubusercontent.com/89356780/229957815-ea747c93-b861-40c7-8a2d-bc43c1b2973a.svg) Template da aplicação
+- [X] ![Story](https://user-images.githubusercontent.com/89356780/229957815-ea747c93-b861-40c7-8a2d-bc43c1b2973a.svg) Operações de arquivos do S3 (download, upload e listagem)
+- [X] ![Story](https://user-images.githubusercontent.com/89356780/229957815-ea747c93-b861-40c7-8a2d-bc43c1b2973a.svg) Operações de arquivos do Google drive (download, upload e listagem)
+- [X] ![Story](https://user-images.githubusercontent.com/89356780/229957815-ea747c93-b861-40c7-8a2d-bc43c1b2973a.svg) Transferência de arquivos individuais
+- [X] ![Story](https://user-images.githubusercontent.com/89356780/229957815-ea747c93-b861-40c7-8a2d-bc43c1b2973a.svg) Alertas e notificações
+- [X] ![Story](https://user-images.githubusercontent.com/89356780/229957815-ea747c93-b861-40c7-8a2d-bc43c1b2973a.svg) Histórico de transferências
+- [ ] ![Epic](https://user-images.githubusercontent.com/89356780/229957736-64a40537-3607-421a-afdd-e581db9e55ea.svg) **SPRINT 2:**  Transação automática de arquivos e coleta de metadados
+- [ ] ![Story](https://user-images.githubusercontent.com/89356780/229957815-ea747c93-b861-40c7-8a2d-bc43c1b2973a.svg) Salvar credenciais para transação automática
+- [ ] ![Story](https://user-images.githubusercontent.com/89356780/229957815-ea747c93-b861-40c7-8a2d-bc43c1b2973a.svg) Pesquisa recorrente ao drive
+- [ ] ![Story](https://user-images.githubusercontent.com/89356780/229957815-ea747c93-b861-40c7-8a2d-bc43c1b2973a.svg) Transação automática
+- [ ] ![Story](https://user-images.githubusercontent.com/89356780/229957815-ea747c93-b861-40c7-8a2d-bc43c1b2973a.svg) Coleta de metadados de tamanho e tempo na transferência
+- [ ] ![Story](https://user-images.githubusercontent.com/89356780/229957815-ea747c93-b861-40c7-8a2d-bc43c1b2973a.svg) Resposta da transferência automática para o frontend
+- [ ] ![Story](https://user-images.githubusercontent.com/89356780/229957815-ea747c93-b861-40c7-8a2d-bc43c1b2973a.svg) Padronização de rotas
+- [ ] ![Story](https://user-images.githubusercontent.com/89356780/229957815-ea747c93-b861-40c7-8a2d-bc43c1b2973a.svg) Testes de unidade e de integração nas funções de transação
+- [ ] ![Epic](https://user-images.githubusercontent.com/89356780/229957736-64a40537-3607-421a-afdd-e581db9e55ea.svg) **SPRINT 3:**  Dashboard de metadados
+- [ ] ![Story](https://user-images.githubusercontent.com/89356780/229957815-ea747c93-b861-40c7-8a2d-bc43c1b2973a.svg) Coleta de metadados armazenados no backend
+- [ ] ![Story](https://user-images.githubusercontent.com/89356780/229957815-ea747c93-b861-40c7-8a2d-bc43c1b2973a.svg) Armazenamento de metadados na aplicação local
+- [ ] ![Story](https://user-images.githubusercontent.com/89356780/229957815-ea747c93-b861-40c7-8a2d-bc43c1b2973a.svg) Dashboard em Power BI para visualização dos dados
+- [ ] ![Story](https://user-images.githubusercontent.com/89356780/229957815-ea747c93-b861-40c7-8a2d-bc43c1b2973a.svg) Implementação do power BI no frontend
+- [ ] ![Epic](https://user-images.githubusercontent.com/89356780/229957736-64a40537-3607-421a-afdd-e581db9e55ea.svg) **SPRINT 4:**  Configurações personalizadas da transação
+- [ ] ![Story](https://user-images.githubusercontent.com/89356780/229957815-ea747c93-b861-40c7-8a2d-bc43c1b2973a.svg) Configurar tempo de pesquisa recorrente ao drive de origem
+- [ ] ![Story](https://user-images.githubusercontent.com/89356780/229957815-ea747c93-b861-40c7-8a2d-bc43c1b2973a.svg) Configurar banda usada na transação
+- [ ] ![Story](https://user-images.githubusercontent.com/89356780/229957815-ea747c93-b861-40c7-8a2d-bc43c1b2973a.svg) Configurar tipo de transferência
+- [ ] ![Story](https://user-images.githubusercontent.com/89356780/229957815-ea747c93-b861-40c7-8a2d-bc43c1b2973a.svg) Configurar tipo de transferência
+- [ ] ![Story](https://user-images.githubusercontent.com/89356780/229957815-ea747c93-b861-40c7-8a2d-bc43c1b2973a.svg) Setup da aplicação desktop
 
 ## Tecnologias
 

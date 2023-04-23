@@ -98,8 +98,8 @@ Para mais informações[^2], clique [aqui](https://github.com/DolphinDatabase/Cl
 | Data | Evento |
 | -------| --------- |
 | 13/02 a 03/03 | Kick-off. |
-| 23/03 a 02/04 | [Sprint 1](Sprints/SPRINT1.md). |
-| 03/04 a 23/04 | Sprint 2 |
+| 23/03 a 02/04 | [Sprint 1](Sprints/SPRINT1.md) |
+| 03/04 a 23/04 | [Sprint 2](Sprints/SPRINT2.md) |
 | 24/04 a 14/05 | Sprint 3 |
 | 15/05 a 04/06 | Sprint 4 |
 | 13/06 e 14/06 | Feira de Soluções. |

@@ -9,7 +9,7 @@ The objective of this sprint was to deliver an MVP of the final product, where t
   
 ## Story Cards
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/74321890/228998178-796a5295-c6a6-4cb5-ae38-6952ade3e171.gif"/>
+  <img src="https://github.com/DolphinDatabase/Cloud-In/assets/58821700/d6913e4b-be1c-4049-a261-ecd743d9f1e1"/>
 </p>
 
 ## Developed Features

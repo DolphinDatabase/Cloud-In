@@ -2,10 +2,10 @@
   <img src="https://user-images.githubusercontent.com/74321890/228393527-9bd20785-93b0-4da2-b774-97e81e59e6e4.svg" width="40%">
 </div>
 
-## Sprint 2
+## Sprint 3
 
 <p align="justify">
-The objective of this sprint was to deliver an automatic download between two folders in the drives, a client must authenticate and select the folders in question, the server will identify if there are files in the source folder and will transfer to the destination folder, after this event all files in the source folder will be deleted.
+The objective of this sprint was to deliver a dashboard 
   
 ## Story Cards
 <p align="center">
@@ -14,13 +14,15 @@ The objective of this sprint was to deliver an automatic download between two fo
 
 ## Developed Features
 
-- [X] Save credentials for automatic transaction
-- [X] Recurring drive search
-- [X] Automatic transfer
-- [X] Collection of size and time metadata on transfer
-- [X] Automatic transfer response to frontend
-- [X] Standardization of routes
-- [X] Unit and Integration tests
+- [X] Error Handling
+- [X] Report Screen
+- [X] Power BI report
+- [X] SQL Server configuration
+- [X] ETL with SQL Server
+- [X] Power BI Refresh configuration
+- [X] Unit test
+- [X] Integration test
+- [X] Github Actions pipeline to tests
 
 ## Demonstration
 

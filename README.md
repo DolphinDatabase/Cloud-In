@@ -93,7 +93,6 @@ To access our project playlist, click [here](https://www.youtube.com/watch?v=AGR
  - Pedro Motta (SM)
  - Abraão Henrique (DEV)
  - Hamilton Zanini (DEV)
- - Kauã Borgarelli (DEV)
  - Renata Garcia (DEV)
  - Victor Cavichioli (DEV)
  

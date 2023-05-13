@@ -105,7 +105,7 @@ For more information[^2], click [here](https://github.com/DolphinDatabase/Cloud-
 | 13/02 a 03/03 | Kick-off. |
 | 23/03 a 02/04 | [Sprint 1](Sprints/SPRINT1.md) |
 | 03/04 a 23/04 | [Sprint 2](Sprints/SPRINT2.md) |
-| 24/04 a 14/05 | Sprint 3 |
+| 24/04 a 14/05 | [Sprint 3](Sprints/SPRINT3.md) |
 | 15/05 a 04/06 | Sprint 4 |
 | 13/06 e 14/06 | Solutions Fair |
 

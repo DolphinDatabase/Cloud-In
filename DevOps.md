@@ -33,10 +33,10 @@ Para a ferramenta de gestão decidimos utilizar o Jira, ele é estruturado com �
 Estórias, no nosso caso, são equivalente a issues, onde conseguimos fazer integração com o github utilizando seu id.
  
 Definimos que todo commit deve referenciar sua issue com o id da sua respectiva estória.
-Para dar o commit utilizamos o pre-commit onde definimos que todo commit deve começar com a sigla padrão das storys (CLD-) e o número da sua story (varia a cada story), assim o usuário passa um id e se esse id for válido, o commit ocorre normalmente.
 
 ### pre-commit
-
+<p align="justify">
+Para dar o commit utilizamos o pre-commit onde definimos que todo commit deve começar com a sigla padrão das storys (CLD-) e o número da sua story (varia a cada story), assim o usuário passa um id e se esse id for válido, o commit ocorre normalmente.
 
 ```
 git commit -m "CLD-109 tempo de transferência"

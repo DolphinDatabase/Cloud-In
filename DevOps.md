@@ -32,8 +32,7 @@ Para a ferramenta de gestão decidimos utilizar o Jira, ele é estruturado com �
  
 Estórias, no nosso caso, são equivalente a issues, onde conseguimos fazer integração com o github utilizando seu id.
  
-Definimos que todo commit deve referenciar sua issue com o id da sua respectiva estória.
-Para dar o commit utilizamos o pre-commit onde definimos que todo commit deve começar com a sigla padrão das storys (CLD-) e o número da sua story (varia a cada story).
+Para dar o commit utilizamos o **pre-commit** onde definimos que todo commit deve começar com a sigla padrão das estórias (CLD-) e o número (varia a cada story).
  
 ### pre-commit
 <p align="justify">
@@ -51,7 +50,7 @@ git commit -m "CLD-109 tempo de transferência"
 black....................................................................Passed
 ```
 
-Caso o id não seja válido, recebes um aviso para corrigir e o commit não é concluído.
+Caso o id não seja válido, recebe um aviso para corrigir e o commit não é concluído.
 ```
 git commit -m "teste"
 [INFO] Initializing environment for https://github.com/ambv/black.

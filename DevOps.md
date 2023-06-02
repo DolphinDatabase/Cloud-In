@@ -27,3 +27,29 @@ Caso um bug seja encontrado depois do merge, realizamos a aplicação da branch 
 <img src="https://github.com/DolphinDatabase/MCS/assets/74321890/6e4c8f8f-c1c9-4a12-b661-e4de9ff2a98a"/>
   
 ## Track Issue
+<p align="justify">
+Para a ferramenta de gestão decidimos utilizar o Jira, ele é estruturado com Épicos/ Estórias/ Tarefas.
+ 
+Estórias, no nosso caso, são equivalente a issues, onde conseguimos fazer integração com o github utilizando seu id.
+ 
+Definimos que todo commit deve referenciar sua issue com o id da sua respectiva estória.
+Para dar o commit utilizamos o pre-commit onde definimos que todo commit deve começar com a sigla padrão das storys (CLD-) e o número da sua story (varia a cada story), assim o usuário passa um id e se esse id for válido, o commit ocorre normalmente.
+
+### pre-commit
+
+
+```
+git commit -m "CLD-109 tempo de transferência"
+black....................................................................Passed
+```
+
+Caso o id não seja válido, recebemos um aviso para corrigir e o commit não é concluído.
+```
+git commit -m "teste"
+[INFO] Initializing environment for https://github.com/ambv/black.
+[INFO] Installing environment for https://github.com/ambv/black.
+[INFO] Once installed this environment will be reused.
+[INFO] This may take a few minutes...
+black....................................................................Failed
+```
+

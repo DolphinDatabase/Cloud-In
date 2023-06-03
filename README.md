@@ -77,12 +77,15 @@ To access our project playlist, click [here](https://www.youtube.com/watch?v=AGR
 - [X] ![Story](https://user-images.githubusercontent.com/89356780/229957815-ea747c93-b861-40c7-8a2d-bc43c1b2973a.svg) Unit test
 - [X] ![Story](https://user-images.githubusercontent.com/89356780/229957815-ea747c93-b861-40c7-8a2d-bc43c1b2973a.svg) Integration test
 - [X] ![Story](https://user-images.githubusercontent.com/89356780/229957815-ea747c93-b861-40c7-8a2d-bc43c1b2973a.svg) Github Actions pipeline to tests
-- [ ] ![Epic](https://user-images.githubusercontent.com/89356780/229957736-64a40537-3607-421a-afdd-e581db9e55ea.svg) **SPRINT 4:**  Custom transfer configuration
-- [ ] ![Story](https://user-images.githubusercontent.com/89356780/229957815-ea747c93-b861-40c7-8a2d-bc43c1b2973a.svg) Configure recurring polling time to source drive
-- [ ] ![Story](https://user-images.githubusercontent.com/89356780/229957815-ea747c93-b861-40c7-8a2d-bc43c1b2973a.svg) Configure bandwidth used in the transaction
-- [ ] ![Story](https://user-images.githubusercontent.com/89356780/229957815-ea747c93-b861-40c7-8a2d-bc43c1b2973a.svg) Configure transfer type
-- [ ] ![Story](https://user-images.githubusercontent.com/89356780/229957815-ea747c93-b861-40c7-8a2d-bc43c1b2973a.svg) Desktop application setup
-
+- [X] ![Epic](https://user-images.githubusercontent.com/89356780/229957736-64a40537-3607-421a-afdd-e581db9e55ea.svg) **SPRINT 4:**  Custom transfer configuration
+- [X] ![Story](https://user-images.githubusercontent.com/89356780/229957815-ea747c93-b861-40c7-8a2d-bc43c1b2973a.svg) CD - Kubernets
+- [X] ![Story](https://user-images.githubusercontent.com/89356780/229957815-ea747c93-b861-40c7-8a2d-bc43c1b2973a.svg) Gitflow documentation
+- [X] ![Story](https://user-images.githubusercontent.com/89356780/229957815-ea747c93-b861-40c7-8a2d-bc43c1b2973a.svg) Pre-commit and black configuration
+- [X] ![Story](https://user-images.githubusercontent.com/89356780/229957815-ea747c93-b861-40c7-8a2d-bc43c1b2973a.svg) Monitoring - Zabbix
+- [X] ![Story](https://user-images.githubusercontent.com/89356780/229957815-ea747c93-b861-40c7-8a2d-bc43c1b2973a.svg) Recurring poll time setting
+- [X] ![Story](https://user-images.githubusercontent.com/89356780/229957815-ea747c93-b861-40c7-8a2d-bc43c1b2973a.svg) Transfer time setting
+- [X] ![Story](https://user-images.githubusercontent.com/89356780/229957815-ea747c93-b861-40c7-8a2d-bc43c1b2973a.svg) Maximum bandwidth setting
+- [X] ![Story](https://user-images.githubusercontent.com/89356780/229957815-ea747c93-b861-40c7-8a2d-bc43c1b2973a.svg)Transfer optimization
 ## Technologies
 
 <img src="https://img.shields.io/badge/-Vue.js-4FC08D?logo=Vue.js&logoColor=white&style=for-the-badge" alt="badge"> <img src="https://img.shields.io/badge/-Flask-000000?logo=Flask&logoColor=white&style=for-the-badge" alt="badge">  <img src="https://img.shields.io/badge/-MySQL-4479A1?logo=MYSQL&logoColor=white&style=for-the-badge" alt="badge">
@@ -106,7 +109,7 @@ For more information[^2], click [here](https://github.com/DolphinDatabase/Cloud-
 | 23/03 a 02/04 | [Sprint 1](Sprints/SPRINT1.md) |
 | 03/04 a 23/04 | [Sprint 2](Sprints/SPRINT2.md) |
 | 24/04 a 14/05 | [Sprint 3](Sprints/SPRINT3.md) |
-| 15/05 a 04/06 | Sprint 4 |
+| 15/05 a 04/06 | [Sprint 4](Sprints/SPRINT4.md) |
 | 13/06 e 14/06 | Solutions Fair |
 
 [^1]: Video produced and edited by the members of the group.

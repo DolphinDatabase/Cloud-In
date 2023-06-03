@@ -10,7 +10,7 @@ The objective of this Sprint was to create the settings so that the user can dec
   
 ## Story Cards
 <p align="center">
-  <img src="https://github.com/DolphinDatabase/Cloud-In/assets/58821700/34112c0e-b77b-4a4f-af1f-ab0d4503f9c2"/>
+  <img src="https://github.com/DolphinDatabase/Cloud-In/assets/58821700/f40667be-2dc1-4718-9905-a760f50455b3"/>
 </p>
 
 ## Developed Features

@@ -1,56 +1,58 @@
 # DevOps
 
-## Tabela de Conteúdos
+## Table of contents
 
  * [GitFlow](#gitflow)
  * [Track Issue](#track-issue)
+ * [Tests](#tests)
  
 ## GitFlow
 <p align="justify">
-Git Flow é um modelo de fluxo de trabalho que simplifica e organizar o versionamento das branches de um projeto de desenvolvimento no Git.
-O Git Flow pode ser implementado em qualquer projeto de software e está alinhado diretamente à prática de DevOps de entrega contínua. o Git Flow atribui regras bem específicas para diferentes tipos de ramificações e define quando elas devem interagir. Além disso, conta com ramificações individuais para preparar, manter e registrar lançamentos. Baseando nesse princípio, estamos fazendo uso de ramificações (branches) do projeto,
+Git Flow is a workflow template that simplifies and organizes the versioning of branches in a development project in Git.
+Git Flow can be implemented in any software project and is directly aligned with the DevOps practice of continuous delivery. Git Flow assigns very specific rules to different types of branches and defines when they should interact. In addition, it has individual branches to prepare, maintain and record journal entries. Based on this principle, we are making use of branches in the project.
 
-No nosso fluxo de trabalho, as branches estão sendo divididas em quatro tipos:
+In our workflow, branches are being divided into four types:
 - Main
 - Dev
 - Feature
 - Bugfix
 
-**Main** é a branch principal que contém o código-fonte em produção que foi completamente testado e aprovado. Não é permitido realizar alterações (commit) diretamente na main, ela representa a linha de produção estável do nosso projeto. Os Commits nesta branch são feitos por meio de merges vindos da branch Dev e ocasionalmente da branch Bugfix.
+**Main** it is the main branch that contains the production source code that has been tested and approved. It is not allowed to make changes (commit) directly in main, it represents the stable production line of our project. Commits on this branch are done via merges from the Dev branch and occasionally the Bugfix branch.
 
-**Dev** é a branch de desenvolvimento principal do nosso projeto, é criada a partir da Main. Ela deve sempre estar organizada, com os códigos testados, porém não necessariamente estável o suficiente para implantação em produção. Commits diretos na branch dev são evitados, e o trabalho é feito principalmente em branches de features geradas a partir desta.
-Toda vez que realizar um pull request da feature para Dev, é testado o código a partir da pipeline de testes no Github Actions,  para que na main, seja armazenado o código testado e funcional. 
+**Dev** is the main development branch of our project, it is created from Main. It should always be organized, with tested code, but not necessarily stable enough for production deployment. Direct commits to the dev branch are avoided, and work is mostly done on feature branches spawned from it.
+Every time you make a feature pull request to Dev, the code from the test pipeline is tested on Github Actions, so that the tested and functional code is stored in the main. 
 
-**Feature** é uma branch temporária criada a partir da branch Dev que carrega uma nova funcionalidade para o projeto, ela sempre acabará sendo implementada à própria Dev, através de merge e descartada ao cumprir seu propósito.
-
-Caso um bug seja encontrado depois do merge, realizamos a aplicação da branch **Bugfix**, onde ele pode ser gerado tanto a partir da dev como da main. É investigado a causa do problema, aplicado as correções no código e posteriormente atualizando as branches principais.
+**Feature** it is a temporary branch created from the Dev branch that carries new functionality for the project, it will always end up being implemented to the Dev itself, through a merge and discarded when it fulfills its purpose.
+ 
+If a bug is found after the merge, we apply the **Bugfix** branch, where it can be generated both from dev and main. The cause of the problem is investigated, corrections are applied to the code and later updating the main branches.
+ 
 <img src="https://github.com/DolphinDatabase/MCS/assets/74321890/6e4c8f8f-c1c9-4a12-b661-e4de9ff2a98a"/>
   
 ## Track Issue
 <p align="justify">
-Para a ferramenta de gestão decidimos utilizar o Jira, ele é estruturado com Épicos/ Estórias/ Tarefas.
+For the management tool we decided to use Jira, it is structured with Epic/ Story/ Task.
  
-Estórias, no nosso caso, são equivalente a issues, onde conseguimos fazer integração com o github utilizando seu id.
+Stories, in our case, are equivalent to issues, where we can integrate with github using their id.
  
-Para dar o commit utilizamos o **pre-commit** onde definimos que todo commit deve começar com a sigla padrão das estórias (CLD-) e o número (varia a cada story).
+To commit, we use **pre-commit** where we define that every commit must start with the standard abbreviation for stories (CLD-) and the number (it varies for each story).
  
 ### pre-commit
 <p align="justify">
 
-Comandos para setup do pre-commit:
+Pre-commit setup commands:
 ```
 pre-commit install
 pre-commit autoupdate
 ```
 
-No momento do commit o contributor passa um id e se esse id for válido, o commit ocorre normalmente.
+At the time of commit, the contributor passes an id and if this id is valid, the commit occurs normally.
 
 ```
-git commit -m "CLD-109 tempo de transferência"
+git commit -m "CLD-109 transaction time"
 black....................................................................Passed
 ```
 
-Caso o id não seja válido, recebe um aviso para corrigir e o commit não é concluído.
+If the id is not valid, you receive a warning to correct it and the commit is not completed.
 ```
 git commit -m "teste"
 [INFO] Initializing environment for https://github.com/ambv/black.
@@ -60,3 +62,4 @@ git commit -m "teste"
 black....................................................................Failed
 ```
 
+## Tests

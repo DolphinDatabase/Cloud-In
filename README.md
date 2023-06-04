@@ -3,7 +3,7 @@
   <img src="https://user-images.githubusercontent.com/74321890/228393527-9bd20785-93b0-4da2-b774-97e81e59e6e4.svg" width="40%">
 </div>
 
-![Badge](https://img.shields.io/badge/STATUS-IN_PROGRESS-yellow?style=flat-square&logo=)
+![Badge](https://img.shields.io/badge/STATUS-CONCLUDED-green?style=flat-square&logo=)
 
 
 ## Table of Contents

@@ -26,9 +26,9 @@ The objective of this Sprint was to create the settings so that the user can dec
 
 ## Demonstration
 
-To access the video demonstration[^1], click [here](https://youtu.be/PyPqr0ifft4):
+To access the video demonstration[^1], click [here](https://youtu.be/2koEwBcI6AM):
 
-[<img src="https://user-images.githubusercontent.com/74321890/228991716-687c07f9-3b6a-4cea-b855-677b51b2b20a.svg" width="60%" height="60%">](https://youtu.be/PyPqr0ifft4 "Cloud-in vídeo Demonstração")
+[<img src="https://user-images.githubusercontent.com/74321890/228991716-687c07f9-3b6a-4cea-b855-677b51b2b20a.svg" width="60%" height="60%">](https://youtu.be/2koEwBcI6AM "Cloud-in vídeo Demonstração")
 
 ## Members
 

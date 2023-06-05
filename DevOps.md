@@ -79,4 +79,4 @@ This test is manual.
 The project uses an Amazon Linux EC2 instance to host the api written in Flask. Inside this virtual machine, we use the "zabbix/zabbix-agent:latest" docker image, which already has an embedded PostgreSQL database, to create the "zabbix_server" container and use the monitoring infrastructure that the Zabbix platform offers. This container uses the Alpine Linux distribution and we use the "apk" package manager to install the "zabbix-agent". In the zabbix web interface, we create the host called "Backend" which is referenced inside the "zabbix-agent" configuration file.
 
 ## Table of technologies
-<img src="https://github.com/DolphinDatabase/Cloud-In/assets/58821700/33a1022e-8449-4135-8a5b-3670d3d9a3b8"/>
+<img src="https://github.com/DolphinDatabase/Cloud-In/assets/58821700/489292f1-79a2-42a9-8a06-0d739c8feebf"/>

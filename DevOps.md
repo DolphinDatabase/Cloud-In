@@ -7,6 +7,7 @@
  * [CI](#ci-continuos-integration)
  * [Tests](#tests)
  * [Monitoring](#monitoring)
+ * [CD](#cd-continuos-delivery)
  
 ## GitFlow
 <p align="justify">
@@ -86,5 +87,10 @@ This test is manual.
 <p align="justify">
 The project uses an Amazon Linux EC2 instance to host the api written in Flask. Inside this virtual machine, we use the "zabbix/zabbix-agent:latest" docker image, which already has an embedded PostgreSQL database, to create the "zabbix_server" container and use the monitoring infrastructure that the Zabbix platform offers. This container uses the Alpine Linux distribution and we use the "apk" package manager to install the "zabbix-agent". In the zabbix web interface, we create the host called "Backend" which is referenced inside the "zabbix-agent" configuration file.
 
+## CD (Continuos Delivery)
+
+
+
 ## Table of technologies
 <img src="https://github.com/DolphinDatabase/Cloud-In/assets/58821700/489292f1-79a2-42a9-8a06-0d739c8feebf"/>
+

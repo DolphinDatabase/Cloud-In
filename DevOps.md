@@ -4,6 +4,7 @@
 
  * [GitFlow](#gitflow)
  * [Track Issue](#track-issue)
+ * [CI](#ci-continuos-integration)
  * [Tests](#tests)
  * [Monitoring](#monitoring)
  
@@ -63,8 +64,15 @@ git commit -m "teste"
 black....................................................................Failed
 ```
 
+## CI (Continuos Integration)
+<p align="justify">
+As the gitflow scheme of the project, the main branch is the production branch, due to this process, there is a github actions flow that performs the automatic deployment to the AWS EC2 production server.
+ 
+The deployment is done in a container, and it is created from an image created from the [Dockerfile](https://github.com/DolphinDatabase/Cloudin-backend/blob/main/Dockerfile), in addition, every time the deploy is done, all images and containers are deleted according to the [deploy flow](https://github.com/DolphinDatabase/Cloudin-backend/blob/main/.github/workflows/deploy.yml).
+</p>
+ 
 ## Tests
-We developed two types of tests for the application, unit and integration.
+We developed two types of tests for the application, unit and integration, for the execution of these tests, only the unit tests are done at each merge of some branch feature or bugfix in the dev branch according to the [unit test flow](https://github.com/DolphinDatabase/Cloudin-backend/blob/main/.github/workflows/test.yml), since the integration tests are triggered manually by the tester in the main and dev branches according to the [manual test flow](https://github.com/DolphinDatabase/Cloudin-backend/blob/main/.github/workflows/manualTest.yml).
 
 ### Unit test
 In the unit test we test functions and the expected return, there is also the database test, where we test your business rule.

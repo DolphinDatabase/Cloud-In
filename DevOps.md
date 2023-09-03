@@ -91,7 +91,7 @@ The project uses an Amazon Linux EC2 instance to host the api written in Flask. 
     
 <details id="k3d-p5"><summary>K3D Cluster</summary>
 
-    In order to create a k8s environment for testing before using the AKS cluster, the configuration and documentation of the k3d cluster was carried out. K3d is a command line tool designed to simplify the management of Kubernetes clusters locally. It lets you create, deploy, and manage Kubernetes clusters in your development or test environment. With K3d, you can quickly provision lightweight Kubernetes clusters in Docker containers, making it easy to run multiple Kubernetes instances on a single machine. It's a popular choice for developers who want to test and debug applications in a local Kubernetes environment.
+In order to create a k8s environment for testing before using the AKS cluster, the configuration and documentation of the k3d cluster was carried out. K3d is a command line tool designed to simplify the management of Kubernetes clusters locally. It lets you create, deploy, and manage Kubernetes clusters in your development or test environment. With K3d, you can quickly provision lightweight Kubernetes clusters in Docker containers, making it easy to run multiple Kubernetes instances on a single machine. It's a popular choice for developers who want to test and debug applications in a local Kubernetes environment.
 
     After installing the dependencies, just run the following command:
     ```bash
@@ -99,16 +99,13 @@ The project uses an Amazon Linux EC2 instance to host the api written in Flask. 
     ```
 
     The complete setup guide is present in the [project repository.](https://github.com/DolphinDatabase/Cloudin-backend#readme)
-
-    </details>
-
-    <details id="aks-p5"><summary>AKS Cluster</summary>
+</details>
+<details id="aks-p5"><summary>AKS Cluster</summary>
 
     Azure Kubernetes Service (AKS) offers the fastest way to get started developing and deploying cloud-native apps in Azure, in datacenters or at the edge with built-in code-to-cloud pipelines and health checkers. Get unified management and governance for on-premises, edge, and multi-cloud Kubernetes clusters. Interoperate with Azure security, identity, cost management and migration services [\[23\]](#references).
+</details>
 
-    </details>
-
-    <details id="deployment-p5"><summary>Kubernetes Deployment</summary>
+<details id="deployment-p5"><summary>Kubernetes Deployment</summary>
 
     ```yaml
     apiVersion: apps/v1
@@ -141,10 +138,8 @@ The project uses an Amazon Linux EC2 instance to host the api written in Flask. 
     A "Deployment" is used to create and manage application instances in a Kubernetes cluster. It specifies settings for replication, pod selection, pod template, and associated containers. In the case used in the project, the Deployment called "cloudin-midall" is being configured to create a replicaSet with the number of replicas defined by the value defined in values.yaml. The "backend" container is defined with its image and port and environment variable settings.
 
     A Deployment is suitable for applications that are stateless, that is, do not store persistent data. It manages the deployment of pod replicas in a controlled manner, enabling upgrades, rollback, and automatic scaling. Pods created by a Deployment have no unique identity and do not maintain persistent connections to storage.
-
-    </details>
-
-    <details id="statefulset-p5"><summary>Kubernetes StatefulSet</summary>
+</details>
+<details id="statefulset-p5"><summary>Kubernetes StatefulSet</summary>
 
     ```yaml
     apiVersion: apps/v1
@@ -190,10 +185,8 @@ The project uses an Amazon Linux EC2 instance to host the api written in Flask. 
 A "StatefulSet" has been defined in Kubernetes to run a MySQL database instance. The StatefulSet is named "cloudin-midall-mysql" and has a replica. The service associated with StatefulSet is also called "cloudin-midall-mysql". The pod definition includes a container called "mysql" that uses the latest MySQL image. Port 3306 is exposed for communication. Environment variables are set to define the MySQL root user password, database name, database user name and password. Resource constraints are defined to limit the container's CPU and memory usage.
 
     A "StatefulSet" is used for applications that have state and require unique identity and persistent storage for their pods. It provides guarantees of order and stability when creating, updating, and deleting pods. Each pod in a StatefulSet is assigned a unique identifier and maintains its own persistent state. This is especially useful for databases and other applications that require persistent storage and state consistency across pods.
-
-    </details>
-
-    <details id="service-ip-p5"><summary>Kubernetes Service ClusterIP</summary>
+</details>
+<details id="service-ip-p5"><summary>Kubernetes Service ClusterIP</summary>
 
     ```yaml
     apiVersion: v1
@@ -214,10 +207,8 @@ A "StatefulSet" has been defined in Kubernetes to run a MySQL database instance.
     ```
 
   Service ClusterIP is a type of service in Kubernetes that exposes a set of pods for internal communication within the cluster. It provides a static internal IP address to the service, allowing other resources within the cluster to connect to it. The "cloudin-midall-mysql" service is defined as a Service ClusterIP. It maps port 3306 to targetPort 3306 in TCP protocol, which is the standard for communication with the MySQL database. The "app: cloudin-midall-mysql" selector ensures that the Service forwards traffic to the pods that have the same label. This type of service is suitable for internal communication and is not accessible from outside the cluster.
-
-    </details>
-
-    <details id="service-lb-p5"><summary>Kubernetes Service LoadBalancer</summary>
+</details>
+<details id="service-lb-p5"><summary>Kubernetes Service LoadBalancer</summary>
 
     ```yaml
     apiVersion: v1
@@ -238,10 +229,8 @@ A "StatefulSet" has been defined in Kubernetes to run a MySQL database instance.
     ```
 
     Service LoadBalancer is a type of service in Kubernetes that exposes a set of pods to external traffic, allowing the application to be accessed from outside the cluster. It automatically provisions an external load balancer, such as a cloud load balancer, that distributes traffic to the Service Pods. The "cloudin-midall" service is defined as a Service LoadBalancer. It maps a given port, defined by the ".Values.backend.ports.containerPort" value, to the corresponding targetPort. The specified protocol is TCP and the service name is "http". The "app: cloudin-midall" selector ensures that the Service forwards traffic to pods with the same tag. This type of service is suitable for exposing an application to external traffic, allowing accessibility from outside the cluster, through the load balancer provided by the Kubernetes runtime, such as a cloud load balancer.
-
-    </details>
-
-    <details id="hpa-p5"><summary>Kubernetes HorizontalPodAutoscaler</summary>
+</details>
+<details id="hpa-p5"><summary>Kubernetes HorizontalPodAutoscaler</summary>
     
     ```yaml
     apiVersion: autoscaling/v2
@@ -265,10 +254,8 @@ A "StatefulSet" has been defined in Kubernetes to run a MySQL database instance.
     ```
 
     The HorizontalPodAutoscaler (HPA) is a Kubernetes feature that allows automatic scaling of the number of replicas of a Deployment or other horizontally scaling object. The HPA named "cloudin-midall-hpa" is configured to automatically scale the number of replicas of the "cloudin-midall" Deployment. The minimum number of replicas is set to 1 and the maximum number to 5. HPA uses metrics to make sizing decisions. The metric used is the average CPU utilization, where the HPA will try to keep the CPU utilization around 80%. Based on this metric, the HPA will increase or decrease the number of Deployment replicas to meet traffic demands. This allows the Kubernetes cluster to automatically adjust processing power as needed, ensuring efficient scaling of application resources.
-
-    </details>
-
-    <details id="ingress-p5"><summary>Kubernetes Ingress</summary>
+</details>
+<details id="ingress-p5"><summary>Kubernetes Ingress</summary>
     
     ```yaml
     apiVersion: networking.k8s.io/v1
@@ -291,8 +278,7 @@ A "StatefulSet" has been defined in Kubernetes to run a MySQL database instance.
     ```
 
    Ingress is a feature in Kubernetes that allows exposing HTTP and HTTPS services externally to the cluster. The Ingress named "cloudin-midall" is defined with the annotation "kubernetes.io/ingress.class" set to "azure/application-gateway", indicating that the Ingress will be managed by Azure Application Gateway. The Ingress specification includes rules for routing traffic. In the example, there is a single rule that forwards all HTTP traffic coming into the root ("/") to the service called "cloudin-midall" on port 5000. The "pathType" field is set to "Prefix", which means that Ingress will match URLs that start with the specified path. Ingress allows flexible configuration of external traffic routing to internal services in Kubernetes, providing a layer of access control and load balancing.
-
-    </details>
+</details>
 
 ## Table of technologies
 <img src="https://github.com/DolphinDatabase/Cloud-In/assets/58821700/489292f1-79a2-42a9-8a06-0d739c8feebf"/>
